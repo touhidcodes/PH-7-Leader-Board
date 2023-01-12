@@ -22,10 +22,9 @@ main {
   background: #ffffff;
   height: 679px;
   border-radius: 5px;
-}
-.top-players {
   padding: 30px;
 }
+
 .players-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -45,4 +44,21 @@ main {
   font-weight: 500;
   font-size: 18px;
   padding-left: 16px;
+}
+hr {
+  width: 807px;
+  border: 1px solid #d1d1d1;
+  margin: auto;
+}
+/* Blogs */
+.blogs-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.blog {
+  display: flex;
+}
+.blog img {
+  width: 177px;
+  height: 117px;
 }
