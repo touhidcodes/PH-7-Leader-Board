@@ -83,7 +83,69 @@ hr {
   color: #9f9f9f;
   margin-top: 6px;
 }
-
+/* Courses */
+.courses {
+  background: #ffffff;
+  height: 362px;
+  border-radius: 5px;
+  padding: 30px;
+  margin-top: 25px;
+}
+.course-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 30px;
+}
+.course img {
+  width: 224px;
+  height: 104px;
+}
+.course-description {
+  width: 224px;
+  margin-top: 20px;
+}
+.course h2 {
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 20px;
+  color: #1e1e1e;
+  margin-bottom: 7px;
+}
+.course p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 15px;
+  color: #ed6b4f;
+}
+.course-ratings-container {
+  display: flex;
+  align-items: center;
+}
+.star-container img,
+.duration img {
+  height: 12px;
+  width: 12px;
+}
+.rate p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 14px;
+  color: #a2a2a2;
+  margin: 0px 8px;
+  margin-top: 7px;
+}
+.duration {
+  display: flex;
+  align-items: center;
+  background: #ffe4e8;
+  border-radius: 15px;
+  padding: 5px 15px;
+  margin-top: 7px;
+}
+.duration p {
+  color: #ff4a60;
+  margin-left: 5px;
+}
 /* Media */
 @media screen and (max-width: 576px) {
   .players-and-blogs {
@@ -100,7 +162,4 @@ hr {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
-  /* .blog p {
-    margin-bottom: 10px;
-  } */
 }
