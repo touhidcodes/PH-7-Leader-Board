@@ -16,7 +16,9 @@ main {
   color: #562eff;
   margin-bottom: 40px;
 }
-
+.title-color {
+  color: #562eff;
+}
 /* Players-and-Blogs Section */
 .players-and-blogs {
   background: #ffffff;
@@ -51,6 +53,9 @@ hr {
   margin: auto;
 }
 /* Blogs */
+.blogs {
+  margin-top: 30px;
+}
 .blogs-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -61,4 +66,20 @@ hr {
 .blog img {
   width: 177px;
   height: 117px;
+  margin-bottom: 30px;
+}
+.blog-description {
+  margin-left: 16px;
+}
+.blog h2 {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 20px;
+}
+.blog p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  color: #9f9f9f;
+  margin-top: 6px;
 }
