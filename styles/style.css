@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+}
+/* Main Section Styles */
+body {
+  background: #e5e5e5;
+}
+main {
+  max-width: 870px;
+  margin: auto;
+}
+
+/* Players-and-Blogs Section */
+.players-and-blogs {
+  background: #ffffff;
+  height: 679px;
+  border-radius: 5px;
+}
+.players-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.players {
+  display: flex;
+}
+.players img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}
