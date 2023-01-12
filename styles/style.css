@@ -146,7 +146,7 @@ hr {
   color: #ff4a60;
   margin-left: 5px;
 }
-/* Media */
+/* Media Screen */
 @media screen and (max-width: 576px) {
   .players-and-blogs {
     width: 100%;
@@ -162,4 +162,15 @@ hr {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
+  .courses {
+    height: 800px;
+    width: 100%;
+  }
+  .course-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
 }
